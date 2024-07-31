@@ -2,9 +2,9 @@
 --extra-index-url https://download.pytorch.org/whl/cu118
 # torch==2.1.1+cu118
 # torchvision==0.16.1+cu118
-torch==2.0.0+cu118
-torchvision==0.15.1+cu118
-torchaudio==2.0.1+cu118
+torch>=2.0.0+cu118
+torchvision>=0.15.1+cu118
+torchaudio>=2.0.1+cu118
 
 
 # JupyterLab
@@ -26,8 +26,8 @@ pybind11==2.12.0
 
 # CV Libraries
 imageio==2.34.0
-opencv-python==4.9.0.80
-opencv-contrib-python==4.9.0.80
+opencv-python>=4.9.0.80
+opencv-contrib-python>=4.9.0.80
 plotly==5.20.0
 open3d==0.18.0
 pyglet==1.5.28
@@ -67,7 +67,7 @@ nodejs==0.1.1
 jupyterlab==4.1.5
 objaverse==0.1.7
 g4f==0.2.7.1
-ultralytics==8.0.120
+ultralytics>=8.0.120
 pycocotools==2.0.7
 py-spy==0.3.14
 pybullet==3.2.6
